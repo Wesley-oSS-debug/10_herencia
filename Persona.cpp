@@ -24,7 +24,6 @@ Persona :: Persona(string n, string d, int e){
 void Persona :: mostrarDatos(){
 	cout<<nombres<<" Tiene el DNI# "<<DNI<<" y tiene "<<edad<<" años de edad\n"; 
 }
-
 //clase derivada Docente------------------------------------------------
 class Docente : public Persona{
 	private:
