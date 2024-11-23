@@ -46,7 +46,7 @@ void Docente :: mostrarDocente(){
 	mostrarDatos();
 	cout<<"\tEs un docente con un sueldo de S/ "<<sueldo<<endl;
 	cout<<"\tSu especialida es : "<<especialidad<<endl;
-}
+}	
 
 //Clase derivadas Estudiante---------------------------------------
 class Estudiante :public Persona{
